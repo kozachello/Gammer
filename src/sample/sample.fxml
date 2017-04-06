@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="647.0" stylesheets="@../../../little_game/src/com/home/Style.css" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ButtonBar layoutX="13.0" layoutY="180.0" onMouseEntered="#yourChoice" prefHeight="40.0" prefWidth="600.0">
+        <buttons>
+          <Button mnemonicParsing="false" onAction="#dropBall" text="1" />
+            <Button mnemonicParsing="false" onAction="#dropBall" text="2" />
+            <Button mnemonicParsing="false" onAction="#dropBall" text="3" />
+            <Button mnemonicParsing="false" onAction="#dropBall" text="4" />
+            <Button mnemonicParsing="false" onAction="#dropBall" text="5" />
+            <Button mnemonicParsing="false" onAction="#dropBall" text="6" />
+            <Button mnemonicParsing="false" onAction="#dropBall" text="7" />
+        </buttons>
+      </ButtonBar>
+      <GridPane layoutX="15.0" layoutY="32.0" prefHeight="140.0" prefWidth="300.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label prefHeight="47.0" prefWidth="161.0" text="Label" />
+            <Label prefHeight="47.0" prefWidth="167.0" text="Label" GridPane.rowIndex="1" />
+            <Label prefHeight="46.0" prefWidth="156.0" text="Label" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+      <GridPane layoutX="315.0" layoutY="32.0" prefHeight="140.0" prefWidth="300.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label prefHeight="47.0" prefWidth="166.0" text="Label" />
+            <Label prefHeight="47.0" prefWidth="155.0" text="Label" GridPane.rowIndex="1" />
+            <Label prefHeight="46.0" prefWidth="169.0" text="Label" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+      <VBox layoutX="33.0" layoutY="238.0" prefHeight="445.0" prefWidth="73.0">
+         <children>
+            <Circle fill="#c8e3fc" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="47.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="120.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="193.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="266.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="339.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+         </children></VBox>
+      <VBox layoutX="120.0" layoutY="238.0" prefHeight="445.0" prefWidth="73.0">
+         <children>
+            <Circle fill="#c8e3fc" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="47.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="120.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="193.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="266.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="339.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </VBox>
+      <VBox layoutX="203.0" layoutY="238.0" prefHeight="445.0" prefWidth="73.0">
+         <children>
+            <Circle fill="#c8e3fc" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="47.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="120.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="193.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="266.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="339.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </VBox>
+      <VBox layoutX="287.0" layoutY="238.0" prefHeight="445.0" prefWidth="73.0">
+         <children>
+            <Circle fill="#c8e3fc" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="47.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="120.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="193.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="266.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="339.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </VBox>
+      <VBox layoutX="373.0" layoutY="238.0" prefHeight="445.0" prefWidth="73.0">
+         <children>
+            <Circle fill="#c8e3fc" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="47.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="120.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="193.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="266.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="339.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </VBox>
+      <VBox layoutX="458.0" layoutY="238.0" prefHeight="445.0" prefWidth="73.0">
+         <children>
+            <Circle fill="#c8e3fc" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="47.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="120.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="193.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="266.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="339.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </VBox>
+      <VBox layoutX="545.0" layoutY="238.0" prefHeight="445.0" prefWidth="73.0">
+         <children>
+            <Circle fill="#c8e3fc" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="47.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="120.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="193.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="266.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fill="#c8e3fc" layoutX="47.0" layoutY="339.0" radius="36.5" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </VBox>
+   </children>
+</Pane>

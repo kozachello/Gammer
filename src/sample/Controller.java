@@ -9,6 +9,11 @@ import javafx.fxml.FXML;
 
 public class Controller {
 
+    /*
+    @FXML
+    private boolean start = false;
+*/
+
     @FXML
     private void yourChoice() {
 

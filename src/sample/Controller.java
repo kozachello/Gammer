@@ -24,10 +24,12 @@ public class Controller {
 
     }
 
+    @FXML
     private boolean hasBallBeenPlaced() {
         return true;
     }
 
+    @FXML
     private String colorOfTheBall() {
         return "yeppa";
     }

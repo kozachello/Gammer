@@ -5,5 +5,5 @@ package sample;
  */
 
 public class Model {
-
+    // some model here...
 }
